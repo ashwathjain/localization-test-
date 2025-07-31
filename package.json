@@ -1,0 +1,43 @@
+{
+  "$schema": "./@types/schema/package/index.json",
+  "package_version": 2,
+  "name": "localization_test_02",
+  "version": "1.0.0",
+  "author": "Ashwath",
+  "description": "Testing localizations for TA's",
+  "editor": ">=3.8.6",
+  "main": "./dist/main.js",
+  "scripts": {
+    "preinstall": "node ./scripts/preinstall.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@cocos/creator-types": "^3.8.6",
+    "@types/node": "^18.17.1",
+    "typescript": "^5.8.2"
+  },
+"contributions": {
+    "menus": {
+      "assets": [
+        {
+          "path": "i18n:localization-checker.show_log",
+          "label": "i18n:localization-checker.show_log",
+          "message": "show-log"
+        }
+      ]
+    },
+    "messages": {
+      "show-log": {
+        "methods": ["showLog"]
+      }
+    },
+    "panels": {
+      "localization-checker.default": {
+        "main": "./dist/panel.js",
+        "type": "dockable"
+      }
+    }
+  }
+
+}

@@ -1,0 +1,20 @@
+{
+  "font_asset": {
+    "d": "font_asset",
+    "en": "OpenSans-Bold.ttf",
+    "ja": "OpenSans-Bold.ttf",
+    "ko": "OpenSans-Bold.ttf"
+  },
+  "Hello world": {
+    "d": "font_asset",
+    "en": "Hello world",
+    "ja": "こんにちは世界",
+    "ko": "안녕 세계"
+  },
+  "Thank you": {
+    "d": "font_asset",
+    "en": "Thank you",
+    "ja": "ありがとうございます",
+    "ko": "감사합니다"
+  }
+}
